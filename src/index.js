@@ -13,7 +13,6 @@ const downloadButton = document.getElementById('download');
 let dataCsvFormat = '';
 
 downloadButton.addEventListener('click', event => {
-	event.preventDefault();
 	downloadCsv();
 })
 
