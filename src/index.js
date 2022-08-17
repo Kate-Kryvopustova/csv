@@ -4,13 +4,7 @@ import Logo from './images/logo.png'
 import './styles/index.css'
 
 
-const logo = document.createElement('img')
-logo.src = Logo
 
-const greeting = document.createElement('h1')
-
-const app = document.querySelector('#root')
-app.append(logo, greeting)
 
 
 const dropArea = document.getElementById('drop-area');
