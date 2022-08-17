@@ -6,6 +6,7 @@ import './styles/index.css'
 
 const logo = document.createElement('img')
 logo.src = Logo
+console.log('test);
 
 const greeting = document.createElement('h1')
 
