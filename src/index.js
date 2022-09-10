@@ -11,7 +11,7 @@ const greeting = document.createElement('h1')
 
 const app = document.querySelector('#root')
 app.append(logo, greeting)
-
+log();
 
 const dropArea = document.getElementById('drop-area');
 const infoZone = document.getElementById('info');
